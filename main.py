@@ -45,7 +45,6 @@ notebook.add(frame_courses, text='Courses')
 notebook.add(frame_attendance, text='Attendance')
 notebook.add(frame_payments, text='Payments')
 
-# Import the modules and set up the frames
 
 students.setup_frame(frame_students, cnx, cursor)
 
